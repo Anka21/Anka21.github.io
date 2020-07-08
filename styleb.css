@@ -1,0 +1,172 @@
+#header-img {
+    width: 150px;
+    height: 125px;
+    background-image: url(https://www.carrea.pl/thumbs/w1200h1200q70/img/products/big/pr13970bi22241_25689_gioia_gold_2_90x90_ep_sz1c.jpg?v=8d6de6238f24933f4e6eee4f954ee264); 
+  }
+  
+  header {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: center;
+    width: 100%;
+    display: flex;
+    color: #D6AD60;
+    font-size: 20px;
+    background-color: rgb(248, 248, 248);
+    position: fixed;
+    top: 0;
+  
+}
+
+#homee {
+  margin: 170px 0px 0px 0px;  
+
+  }
+  ul {
+    
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  #nav-bar {
+    display: fixed;
+    height: 100%;
+    width : 100%;
+    
+  }
+  
+  .nav-link:hover {
+    font-size: 30px;
+    
+  }
+  #quotation {
+    margin: 50px 0px 30px 0px;
+    color: #663300; ;
+    font-size: 25px;
+    text-align: center;
+    padding: 5px 5px 15px 5px;
+  }
+  
+  #quotation:hover {
+    color : #D6AD60;
+  }
+  h4:hover {
+    color : #D6AD60;
+    }
+    h2:hover {
+        color : #D6AD60;
+        }
+  h4, h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #663300;
+    margin: 30px 0px 20px 0px;
+  }
+  
+  .grid-container {
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+    padding:50px 20px 50px 20px;
+    margin: 30px 0px 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    color:#5c4c40;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://www.tasteofhome.com/wp-content/uploads/2019/01/sourdough-bread-shutterstock_1209024541-1200x675.jpg);
+  }
+  .grid-item {
+    padding: 20px 20px 20px 20px;
+    border: 1px solid white;
+    margin: 20px 20px 20px 20px;
+    width :200px;
+    height: 200px;
+    background: rgba(255,255,255,0.6);
+    color: black;
+    
+  }
+  .grid-item:hover {
+     background: white;
+  }
+  
+  button {
+    color: white;
+    padding: 0 20px;
+    height: 40px;
+    font-size: 1em;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 2px;
+    background-color: #D6AD60;
+    cursor: pointer;
+  }
+  .btn {
+    position
+    
+  }
+  
+  #video {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 60px 30px 30px 30px;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  
+  footer {
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+  
+   .input-background {  
+      max-width: 100%;
+      max-height: 100%;
+      font-size: 30px;
+      color: white;
+      top:60%;
+      border: none;
+      margin: 5px 10px 5px 10px;
+      padding: 200px 5px 200px 400px;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     background-size: cover;
+     background-position: center;
+     background-image: url(https://i.pinimg.com/originals/80/0d/b0/800db05a7728983d929f120c8227fcd6.jpg); 
+  }
+  
+  #email {
+    margin: 5px 5px 5px 5px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    background: rgba(255,255,255,0.6);
+  }
+  
+   #submit {
+       margin: 5px 10px 5px 10px;
+       position : absolute;
+       width: 200px;
+       height: 43px;
+       border: none;
+       font-size: 20px;
+       color: #663300;
+       background: white;
+       background: rgba(255,255,255,0.6);   
+  }
+   #submit:hover {
+     background: white;
+  }
+   #email:hover {
+     background: white;
+  }
+  
+  @media screen and (max-width: 992px) {
+    .column {
+      width: 50%;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }

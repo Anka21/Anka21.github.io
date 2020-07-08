@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class="container">
+  <h1 id="title"><bold>Employee experience survey form </bold> </h1>
+   
+  
+  <form id="survey-form">
+    
+     <p id="description"><bold>To work from home or not to work from home…that is the question at workplaces lately...</bold></p>
+    
+    <div class="form-group">
+      <label id="name-label"> Name </label>
+      <input 
+       type="text" 
+       name="name"
+       id="name"
+       class="form-control"                    placeholder="Enter name" 
+       required />
+      </div>
+   
+    <div class="form-group">
+     <label id="email-label"> Email </label>
+       <input 
+        type="email"
+        name="email" 
+        id="email"
+        class="form-control" 
+        placeholder="Enter email" 
+        required />
+   </div>
+    
+   <div class="form-group">
+    <label id="number-label"> Age </label>
+     <input 
+     type="number" 
+     name="age" 
+     id="number" 
+     min="10" 
+     max="99"
+     class="form-control" 
+     placeholder="Age"/>    
+   </div>
+    
+   <div class="form-group">
+     <p>1. Which option best describes your current role? </p>
+     <select id="dropdown" name="role" class="form-control" required>
+       <option disabled selected value> Select current role</option>
+       <option value="student"> Student </option>
+       <option value="job"> Full Time Job</option>
+       <option value="part-time">Part Time Job</option>
+       <option value="preferNo"> Prefer no to say</option>
+       <option value="other"> Other </option>
+      </select>
+    </div>
+    
+    <div class="form-group">
+      <p>2. How satisfied are you with your current work from home arrangement? </p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Very satisfied 
+      </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Somewhat satisfied </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Neither satisfied nor dissatisfied </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Somewhat dissatisfied </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Very dissatisfied </label>
+    </div>
+    
+    <div class="form-group">
+      <p>3. Compared to last week, are you feeling more optimistic or pessimistic about working from home? </p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Optimistic </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Pessimistic </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> About the same</label>
+    </div>
+    
+      <div class="form-group">
+      <p>4. What are the TWO biggest challenges you are facing while working from home?
+      </p>
+
+      <label>
+        <input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/>
+         My physical workspace</label>
+       <label>
+        <input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"
+        /> I don't have access to the tools or informations I need to do my job at home</label>
+          <label
+        ><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/>Comunication with coworkers is harder</label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/>I am sick of helping others who are sick</label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/> Internet connection </label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/> Keeping a regular schedule</label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/> Childcare </label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/> Social isolation</label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/> General anxiety about the impact of coronavirus on my life</label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/> Getting enough food</label>
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/>Too many distractions at home</label> 
+       <label><input
+          name="prefer"
+          value="front-end-projects"
+          type="checkbox"
+          class="input-checkbox"/>Other</label>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter other reason here..." ></textarea>
+      
+    </div> 
+    <div class="form-group">
+      <p>5. Do you have all the equipment required in order to do your work from home?</p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Yes </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> No </label>
+       <label>
+      </div>
+      <div class="form-group">
+      <p>6. Do you have dedicated workspace where you can work from your home? </p>
+      <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked /> Yes </label>
+       <label>
+        <input
+          name="user-recommend"
+          value="definitely"
+          type="radio"
+          class="input-radio"
+          checked/> No </label>
+       <label>
+      </div>
+      <div class="form-group">
+      <p>7. Please share below, if you have any suggestions in terms of working from home.</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Share your suggestions here..."
+      ></textarea>
+     <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+        
+    </div>    
+   </div>
+  </form>
+  </html>

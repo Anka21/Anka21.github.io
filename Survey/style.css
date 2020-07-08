@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+h1 {
+   
+  text-align: center;
+  color: black;
+  font-size: 40px; 
+}
+
+p {
+  font-size: 17px;
+}
+
+body {
+  
+   font-size: 15px;
+   font-family: PT Sans, Montserrat, sans-serif;
+  
+   box-shadow: 10px 10px 25px grey;
+   padding: 2px 20px 0 20px; 
+  
+  
+   background-size: cover;
+   background-position: center;
+   background-image: url(https://www.homeyohmy.com/wp-content/uploads/2016/04/Workspace-2-2.jpg);
+}
+
+.container {
+  width: 100%;
+  margin: 20px 20px 20px 100px;
+}
+
+#survey-form {
+  padding: 20px 20px 20px 20px;
+  background: rgba(255,255,255,0.8);
+  color: black;
+}
+  
+ label, input, textarea {
+  display: flex;
+  align-items: center;
+  border: none;
+   
+}
+
+.input-textarea {
+  
+  width: 100%;
+  min-height: 120px;
+}
+
+    
+}
+
+placeholder {
+ 
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem 0.5rem;
+  color: #495057;
+  border: none;
+
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2.5rem;
+  padding: 0.5rem 0.5rem;
+  color: #495057;
+  border: none;
+}
+
+
+.submit-button {
+  border: none;
+  display: block;
+  height: 2.5rem;
+  width: 100%;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+  background-color: lightgrey;
+}
+
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
